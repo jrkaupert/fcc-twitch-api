@@ -1,22 +1,18 @@
 body {
-  background-color: #8CC152;
+  background-color: #82a161;
   font-family: 'PT Mono', monospace;
 }
-
 h1 {
   font-size: 2.5em;
   color: white;
   text-align: center;
 }
-
 #container {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
-
 #headings {
   display: flex;
   width: 100%;
@@ -24,30 +20,41 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-
-#streamers {
+#streamers-active {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
-
+#streamers-offline {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+#streamers-closed {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+}
 .stream {
   margin-top: 14px;
   margin-left: 7px;
   margin-right: 7px;
   width: 200px;
   height: 135px;
-  border-radius: 18px;
+  border-radius: 8px;
   background-color: #FFCE54;
 }
-
 .banner {
   margin-left: auto;
   margin-right: auto;
   width: 50px;
   height: 50px;
 }
-
 .photo {
   margin-top: 10px;
   border: 3px solid #434A54;
@@ -55,31 +62,24 @@ h1 {
   width: 100%;
   height: 100%;
 }
-
 .userName {
   margin-top: 20px;
   text-align: center;
-
 }
-
 .status {
   text-align: center;
   font-style: italic;
 }
-
 .active {
   background-color: #4FC1E9;
 }
-
 .closed {
   background-color: #CCD1D9;
 }
-
 a, a:hover, a:visited, a:active {
   text-decoration: none;
   color: black;
 }
-
 .stream:hover {
   background-color: #2f2f2f;
   color: white;
